@@ -1,0 +1,21 @@
+{
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "dialog:default",
+    "dialog:allow-open",
+    "dialog:allow-save",
+    "fs:default",
+    "fs:allow-read-file",
+    "fs:allow-write-file",
+    {
+      "identifier": "http:default",
+      "allow": [
+        { "url": "https://openrouter.ai" },
+        { "url": "http://*:*" }
+      ]
+    }
+  ]
+}

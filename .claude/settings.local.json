@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm view:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx tauri:*)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:ej2.syncfusion.com)",
+      "WebFetch(domain:www.npmjs.com)",
+      "WebFetch(domain:help.syncfusion.com)",
+      "WebFetch(domain:hub.docker.com)",
+      "Bash(gh search:*)",
+      "Bash(gh api:*)",
+      "WebFetch(domain:develop365.gitlab.io)",
+      "Bash(taskkill //F //IM interpres.exe)",
+      "Bash(node -e \":*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
